@@ -11,10 +11,7 @@ export const getEpisodesList = async (req: IncomingMessage, res: ServerResponse)
 }
 
 export const getFilteredEpisodes = async (req:IncomingMessage, res: ServerResponse) => {
-    
-    const queryString = req.url?.split('?n=')[1] ?? ""
-
-    const content = await filterEpisodesService(queryString)
+    const content = await filterEpisodesService(req.url)
 
     res.writeHead(200, {'Content-Type': "application/json"})
     res.end(JSON.stringify(content))
