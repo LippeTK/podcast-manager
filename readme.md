@@ -13,10 +13,10 @@ Aplicação web simples para listar episódios de podcast, feito no bootcamp da 
 
 ## 🔗 Endpoints
 
-- `GET /list`  
+- `GET /api/list`  
   Retorna todos os episódios com suas respectivas categorias.
 
-- `GET /episode?n=nome`  
+- `GET /api/filter?n=nome`  
   Filtra episódios pelo nome do podcast informado.
 
 ---
