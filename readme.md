@@ -1,6 +1,6 @@
 # 🎧 Podcast Manager
 
-Aplicação web simples para listar episódios de podcast, feito no bootcamp da DIO com a meutudo.
+Aplicação web simples para listar episódios de podcast, feito no bootcamp da DIO em parceria com a meutudo.
 
 ---
 
